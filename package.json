@@ -1,0 +1,16 @@
+{
+  "name": "umd-wrap",
+  "description": "Wrap a block of code into a UMD bundle",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nicolashery/umd-wrap.git"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
