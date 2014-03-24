@@ -1,16 +1,36 @@
 {
   "name": "umd-wrap",
-  "description": "Wrap a block of code into a UMD bundle",
   "version": "0.0.0",
+  "description": "Wrap a block of code into a UMD bundle",
   "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/nicolashery/umd-wrap.git"
   },
+  "homepage": "https://github.com/nicolashery/umd-wrap",
+  "keywords": [
+    "umd",
+    "bundle",
+    "module",
+    "browser",
+    "require",
+    "commonjs",
+    "amd",
+    "requirejs"
+  ],
+  "author": {
+    "name": "Nicolas Hery",
+    "email": "hi@nicolashery.com",
+    "url": "http://nicolashery.com"
+  },
+  "license": "MIT",
   "dependencies": {
     "lodash": "^2.4.1"
   },
-  "engines": {
-    "node": "0.10.x"
+  "devDependencies": {
+    "tap": "^0.4.8"
   }
 }
