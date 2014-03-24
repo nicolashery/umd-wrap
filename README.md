@@ -9,7 +9,7 @@ The resulting bundle can be used with [Node](http://nodejs.org/), [Browserify](h
 ## Install
 
 ```bash
-$ npm install git://github.com/nicolashery/umd-wrap.git
+$ npm install umd-wrap
 ```
 
 ## Usage

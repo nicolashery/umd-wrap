@@ -1,6 +1,6 @@
 {
   "name": "umd-wrap",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Wrap a block of code into a UMD bundle",
   "main": "index.js",
   "scripts": {
