@@ -1,5 +1,7 @@
 # umd-wrap
 
+[![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+
 Wrap a block of code into a [UMD](https://github.com/umdjs/umd) bundle, with the option to define external dependencies.
 
 The resulting bundle can be used with [Node](http://nodejs.org/), [Browserify](http://browserify.org/), [RequireJS](http://requirejs.org/), or simply via the `window` object.
@@ -149,3 +151,8 @@ $ sed "s/__requireDep/_requireDep/g" robot.js > robot.js
 ```
 
 Wrap the resulting block of code with `umd-wrap`.
+
+[travis-image]: https://travis-ci.org/nicolashery/umd-wrap.png?branch=master
+[travis-url]: https://travis-ci.org/nicolashery/umd-wrap
+[daviddm-image]: https://david-dm.org/nicolashery/umd-wrap.png?theme=shields.io
+[daviddm-url]: https://david-dm.org/nicolashery/umd-wrap
