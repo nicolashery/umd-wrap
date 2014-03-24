@@ -152,6 +152,10 @@ $ sed "s/__requireDep/_requireDep/g" robot.js > robot.js
 
 Wrap the resulting block of code with `umd-wrap`.
 
+## License
+
+MIT
+
 [travis-image]: https://travis-ci.org/nicolashery/umd-wrap.png?branch=master
 [travis-url]: https://travis-ci.org/nicolashery/umd-wrap
 [daviddm-image]: https://david-dm.org/nicolashery/umd-wrap.png?theme=shields.io
