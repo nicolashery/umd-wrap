@@ -70,6 +70,7 @@ $ node make-bundle > bundle.js
 
   exports: 'robot',
   // Name to expose on the `window` object
+  // Supports namespacing with dot notation
 
   dependencies: [
     {name: 'lodash', exports: '_'},
