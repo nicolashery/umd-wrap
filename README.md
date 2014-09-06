@@ -153,6 +153,12 @@ $ sed "s/__requireDep/_requireDep/g" robot.js > robot.js
 
 Wrap the resulting block of code with `umd-wrap`.
 
+## Contributors
+
+Thank you for your contributions:
+
+- [5310](https://github.com/5310)
+
 ## License
 
 MIT
