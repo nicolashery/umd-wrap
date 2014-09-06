@@ -62,3 +62,32 @@ test('run bundle', function(t) {
     t.end();
   });
 });
+
+test('with dotted namespace', function(t) {
+  var options = {
+    code: '([1234, _, moment]);',
+    exports: 'p.q.r',
+    dependencies: [
+      {name: 'lodash', exports: '_'},
+      {name: 'moment'}
+    ]
+  };
+
+  var expected = [1234, 'lodash', 'moment'];
+
+  wrap(options, function(err, code) {
+    test('in global environment', function(t) {
+      t.plan(1);
+
+      var a;
+      var sandbox = {_: 'lodash', moment: 'moment'};
+      vm.runInNewContext(code, sandbox);
+      a = sandbox.p.q.r;
+
+      t.deepEqual(a, expected);
+      t.end();
+    });
+
+    t.end();
+  });
+});
